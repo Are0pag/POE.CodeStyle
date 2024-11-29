@@ -13,7 +13,7 @@
 ### POE.CodeStyle for project
 
 ### Module Structure (folders):
-- ModuleInterface
+- ModuleInterface <br>
 Contains a public class that allows you to access the functionality of the module
 - Installers
 - Controllers
