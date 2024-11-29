@@ -14,12 +14,27 @@
 
 ### Module Structure (folders):
 #### ModuleInterface 
-- Contains a public class that allows you to access the functionality of the module
+- Contains a public class that allows you to access the functionality of the module;
+
 #### Installers
-- Controllers
-- Contracts
-- Config
-- Entities
-- View
-- DataProviders
-- Editor
+- Always consist some kind of Installer to inject dependencies;
+
+#### Controllers
+- Centralized logic management
+
+#### Contracts
+- Interfaces
+
+#### Config
+- It sets certain values and parameters that control the functionality, appearance and behavior of the module;
+
+#### Entities
+- Entities used inside the module;
+
+#### View
+- Display data;
+
+#### DataProviders
+- Defines entities and information about them (mostly MonoBehaviour game objects);
+
+#### Editor
